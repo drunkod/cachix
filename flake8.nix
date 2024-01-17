@@ -112,10 +112,5 @@
         }
       );
 
-      lib = {
-        # Let downstream haskell packages such as hercules-ci-agent use the
-        # overrides we declare in their CI.
-        inherit customHaskellPackages;
-      };
     };
 }
